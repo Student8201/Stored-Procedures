@@ -16,3 +16,6 @@ GO
 -- execute procedure
 EXEC dbo.SelectContacts;
 GO
+
+
+SELECT * FROM dbo.ContactAddresses ORDER BY AddressId DESC;
